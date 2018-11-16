@@ -1,0 +1,7 @@
+#Exercises 3 
+#Because we need to specify that they are two numbers each and no letter or something else, then we want to print the number as a number so we put it as a string. 
+#Code : 
+number1 = input("Enter first number")
+number2 = input("Enter second number")
+result = int(number1) + int(number2)
+print("The result is " + str(result))
