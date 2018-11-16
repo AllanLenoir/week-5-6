@@ -1,0 +1,11 @@
+#Exercises 1
+#Only the first is true; (a+1)<=b 
+#Code : 
+a = int(13)
+b = int(14)
+if (a+1)<=b :
+    print("true1")
+elif (a+1)>=b : 
+    print("true 2 ")
+elif (a+1)!=b :
+    print("true 3")
