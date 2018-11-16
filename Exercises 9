@@ -1,0 +1,28 @@
+#Exercises 9
+
+#a)	We do not need to put “then” and we need to defined x.
+#b)	We need to defined x and y, then specify that it is from math that we import “sqrt”
+ 
+#c)	We need to specify what x and y are, 
+# Code : 
+x = int(input("enter a number"))
+if x == 1:
+    y = x +1
+    print(x)
+    print(y)
+ 
+ 
+#d)	We need to put grade as an integer then put (‘) instead of (“) for the letterGrade, put the letterGrade F like the others and not at the first position and put elif instead of if after the first one
+
+#Code : grade = int(input("enter your grade : "))
+if grade >= 90 :
+            print("letterGrade = 'A'")
+elif grade >= 80 :
+            print("letterGrade = 'B'")
+elif grade >= 70 :
+            print("letterGrade = 'C'")
+elif grade >= 60 :
+            print("letterGrade = 'D'")
+elif grade >= 50 :
+            print("letterGrade = 'F'")
+ 
