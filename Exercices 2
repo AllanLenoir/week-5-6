@@ -1,0 +1,5 @@
+#Exercises 2
+#We need to put quotation mark if we want to make a statement and for printing to. The “print” must be in lowercase. 
+#Code : 
+myage = input("How old are you")
+print("Hi there, you are " + myage +" old") 
