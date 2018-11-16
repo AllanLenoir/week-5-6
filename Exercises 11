@@ -1,0 +1,9 @@
+#Exercises 11
+#Code : 
+password = input("Enter a password")
+while password !="changeme" :
+    password = input("Enter a password")
+    if password == "changeme" :
+        print("Accepted")
+    else :
+        print("Denied")
