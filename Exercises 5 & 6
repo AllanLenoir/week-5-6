@@ -1,0 +1,12 @@
+#Exercises 5 & 6
+#Code : 
+
+number = int(input("Enter a number : "))
+#number/=7
+print(number)
+
+remainder = number%7
+print(remainder)
+
+number//=7
+print(number)
